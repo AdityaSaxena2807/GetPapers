@@ -119,7 +119,7 @@ I used ChatGPT to:
 * Write regex & XML parsing logic
 * Generate test cases and debug `__pycache__`/module conflicts
 
-[See my full ChatGPT conversation here]([https://chat.openai.com/share/your-thread-link](https://chatgpt.com/share/6874242a-5a0c-800a-8730-517ef9dd1e09))
+[See my full ChatGPT conversation here]([https://chatgpt.com/share/6874242a-5a0c-800a-8730-517ef9dd1e09]
 
 ---
 

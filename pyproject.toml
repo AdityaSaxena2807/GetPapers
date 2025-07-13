@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aganitha-papers"
+version = "0.1.0"
+description = "Fetch PubMed papers with non-academic authors"
+authors = ["Aditya Saxena <saxena.aditya.2807@gmail.com>"]
+packages = [
+    { include = "aganitha_papers", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+get-papers-list = "aganitha_papers.scripts.get_papers_list:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

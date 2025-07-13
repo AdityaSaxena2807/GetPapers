@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+
+# Poetry virtualenvs (optional)
+.venv/
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS/Windows
+.DS_Store
+Thumbs.db
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# CSV/outputs if not needed in repo
+*.csv
+######      to run this code
+#           poetry run get-papers-list "covid vaccine" -d -f results.csv

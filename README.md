@@ -5,7 +5,7 @@ A command-line tool to fetch PubMed research papers with at least one **non-acad
 ---
 
 ## Project Structure
-
+```bash
 aganitha\_papers/
 ├── pyproject.toml               # Poetry configuration
 ├── poetry.lock                  # Dependency lock file
@@ -22,7 +22,7 @@ aganitha\_papers/
 ├── utils.py              # Shared utilities (debug printing)
 └── tests/
 └── test\_basic.py         # Pytest unit tests
-
+```
 
 
 ---
@@ -109,7 +109,7 @@ We consider affiliations **non-academic** if:
 
 ---
 
-## 🤖 LLM Usage (Required)
+## LLM Usage (Required)
 
 I used ChatGPT to:
 
@@ -119,11 +119,11 @@ I used ChatGPT to:
 * Write regex & XML parsing logic
 * Generate test cases and debug `__pycache__`/module conflicts
 
-👉 [See my full ChatGPT conversation here]([https://chat.openai.com/share/your-thread-link](https://chatgpt.com/share/6874242a-5a0c-800a-8730-517ef9dd1e09))
+[See my full ChatGPT conversation here]([https://chat.openai.com/share/your-thread-link](https://chatgpt.com/share/6874242a-5a0c-800a-8730-517ef9dd1e09))
 
 ---
 
-## 📝 Author
+## Author
 
 **Aditya Saxena**
 `saxena.aditya.2807@gmail.com`
